@@ -1,0 +1,404 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Bootstrap/bootstrap.min.css">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/animation.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="shortcut icon" href="images/favicon.png" type="image/x-icon">
+  
+    <title>Document</title>
+</head>
+<body data-bs-spy="scroll" data-bs-target="#nav">
+
+
+<!-- Start Nav bar  -->
+
+<nav class="navbar navbar-expand-lg fixed-top" id="nav">
+    <div class="container">
+      <a class="navbar-brand text-white fw-bold" href="#">Kerri</a>
+      <button class="navbar-toggler text-white" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <i class="fa-solid fa-sliders text-white"></i>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#home">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#about">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#client">Client</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#Portfolio">Portfolio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Blog</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Contact</a>
+          </li>
+         
+          
+        </ul>
+       
+      </div>
+    </div>
+  </nav>
+
+<!-- End Nav bar -->
+<header class="home vh-100 d-flex justify-content-center align-items-center position-relative " id="home">
+ <div class="container text-white text-center">
+    <h1 class="fw-bold fs-1">Welcome</h1>
+    <span class="display-2 typing">I'm A </span>
+    <p class="text-white-50 home-p mb-3">It is a long established fact that a reader will be of a page when established fact looking at its layout.</p>
+    <button class=" btn-custom py-3 px-5 rounded-pill">Download CV</button>
+ </div>
+ <div class="shape">
+
+ </div> 
+</header>      
+
+<div class="settings d-flex align-items-center justify-content-center  rounded-end-3">
+    <i class="fa-solid fa-gear fa-spin text-white"></i>
+</div>
+
+
+
+<main>
+
+  <section class="about py-5" id="about">
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="col-lg-6">
+          <div class="about-img border border-2 p-1">
+            <img src="images/about.jpg" class="w-100" alt="">
+          </div>
+        </div>
+        
+        <div class="col-lg-6">
+          <div class="about-content">
+            <h1 class="fw-semibold"><span class="fw-bolder">About</span> Me</h1>
+            <p class="fw-semibold fs-2">Hello! <span class="text-pink">I'M Kerri Deo.</span></p>
+            <p class="text-muted">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
+            <p class="text-muted">The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English.</p>
+            <p class="text-muted">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable.</p>
+             <div class="about-icon">
+            <ul class=" list-unstyled d-flex">
+              <li>              
+                <i class="fa-brands fa-facebook"></i>
+              </li>
+              <li>              
+                <i class="fa-brands fa-linkedin"></i>
+              </li>
+              <li>              
+                <i class="fa-brands fa-twitter"></i>
+              </li>
+              <li>
+                <i class="fa-brands fa-youtube"></i>
+              </li>
+            </ul>
+          </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  <section class="client bg-light" id="client">
+    <div class="container">
+      <div class="main-section-title text-center pt-2 mb-3">
+        <h2>Our <span class="fw-bolder">Client</span></h2>
+        <p>It is a long established fact that a reader will be of a page when established fact looking at its layout.</p>
+      </div>
+    
+      <div id="carouselExampleIndicators" class="carousel slide">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div class="slider d-flex flex-column align-items-center py-5">
+              <i class="fa-solid fa-quote-left slider-i"></i>
+              <img src="images/testi-1.jpg" alt="" class="my-2"> 
+              <p>"The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here."</p>
+              <p>- Ebony <span class="fw-bolder">verty,</span></p>
+            </div>         
+           </div>
+          <div class="carousel-item">
+            <div class="slider d-flex flex-column align-items-center py-5">
+              <i class="fa-solid fa-quote-left slider-i"></i>
+              <img src="images/testi-2.jpg" alt="" class="my-2"> 
+              <p>"The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here."</p>
+              <p>- Ebony <span class="fw-bolder">verty,</span></p>
+            </div>
+            </div>
+          <div class="carousel-item">
+            <div class="slider d-flex flex-column align-items-center py-5">
+              <i class="fa-solid fa-quote-left slider-i"></i>
+              <img src="images/testi-3.jpg" alt="" class="my-2"> 
+              <p>"The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here."</p>
+              <p>- Ebony <span class="fw-bolder">verty,</span></p>
+            </div>
+            </div>
+        </div>
+  
+      </div>
+    </div>
+  </section>
+
+  <section class="portfolio py-5" id="Portfolio">
+    <div class="container">
+
+      <div class="main-section-title text-center pt-2 mb-3">
+        <h2>Our <span class="fw-bolder">Works</span></h2>
+        <p>It is a long established fact that a reader will be of a page when established fact looking at its layout.</p>
+      </div>
+      <ul class="nav nav-tabs justify-content-center my-5" id="myTab" role="tablist">
+        <li class="nav-item" role="presentation">
+          <button class="nav-link active" id="all-tab" data-bs-toggle="tab" data-bs-target="#all-tab-pane" type="button" role="tab" aria-controls="all-tab-pane" aria-selected="true">All</button>
+        </li>
+        <li class="nav-item" role="presentation">
+          <button class="nav-link" id="seo-tab" data-bs-toggle="tab" data-bs-target="#seo-tab-pane" type="button" role="tab" aria-controls="seo-tab-pane" aria-selected="false">SEO</button>
+        </li>
+        <li class="nav-item" role="presentation">
+          <button class="nav-link" id="webdesign-tab" data-bs-toggle="tab" data-bs-target="#webdesign-tab-pane" type="button" role="tab" aria-controls="webdesign-tab-pane" aria-selected="false">Web Design</button>
+        </li>
+        <li class="nav-item" role="presentation">
+          <button class="nav-link" id="work-tab" data-bs-toggle="tab" data-bs-target="#work-tab-pane" type="button" role="tab" aria-controls="work-tab-pane" aria-selected="false">Work</button>
+        </li>
+        <li class="nav-item" role="presentation">
+          <button class="nav-link" id="wordpress-tab" data-bs-toggle="tab" data-bs-target="#wordpress-tab-pane" type="button" role="tab" aria-controls="wordpress-tab-pane" aria-selected="false">WordPress</button>
+        </li>
+      </ul>
+      <div class="tab-content" id="myTabContent">
+        <div class="tab-pane fade show active" id="all-tab-pane" role="tabpanel" aria-labelledby="all-tab" tabindex="0">
+          
+          <div class="row g-3">
+            <div class="col-lg-4 col-md-6">
+              <div class="item-img">
+                <img src="images/1.jpg" class="w-100" alt="">
+                <div class="headers">
+                   <h2>Category</h2>
+                   <h3>Project Title
+                  </h3>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6">
+              <div class="item-img">
+                <img src="images/2.jpg" class="w-100" alt="">
+                <div class="headers">
+                   <h2>Category</h2>
+                   <h3>Project Title
+                  </h3>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6">
+              <div class="item-img">
+                <img src="images/3.jpg" class="w-100" alt="">
+                <div class="headers">
+                   <h2>Category</h2>
+                   <h3>Project Title
+                  </h3>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6 ">
+              <div class="item-img">
+                <img src="images/4.jpg" class="w-100" alt="">
+                <div class="headers">
+                   <h2>Category</h2>
+                   <h3>Project Title
+                  </h3>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6">
+              <div class="item-img">
+                <img src="images/5.jpg" class="w-100" alt="">
+                <div class="headers">
+                   <h2>Category</h2>
+                   <h3>Project Title
+                  </h3>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6">
+              <div class="item-img">
+                <img src="images/6.jpg" class="w-100" alt="">
+                <div class="headers">
+                   <h2>Category</h2>
+                   <h3>Project Title
+                  </h3>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+
+        </div>
+        <div class="tab-pane fade" id="seo-tab-pane" role="tabpanel" aria-labelledby="seo-tab" tabindex="0">
+          <div class="row g-3">
+            <div class="col-lg-4 col-md-6">
+              <div class="item-img">
+                <img src="images/1.jpg" class="w-100" alt="">
+                <div class="headers">
+                   <h2>Category</h2>
+                   <h3>Project Title
+                  </h3>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6">
+              <div class="item-img">
+                <img src="images/2.jpg" class="w-100" alt="">
+                <div class="headers">
+                   <h2>Category</h2>
+                   <h3>Project Title
+                  </h3>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6">
+              <div class="item-img">
+                <img src="images/3.jpg" class="w-100" alt="">
+                <div class="headers">
+                   <h2>Category</h2>
+                   <h3>Project Title
+                  </h3>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="tab-pane fade" id="webdesign-tab-pane" role="tabpanel" aria-labelledby="webdesign-tab" tabindex="0">
+          <div class="row g-3">
+            <div class="col-lg-4 col-md-6">
+              <div class="item-img">
+                <img src="images/1.jpg" class="w-100" alt="">
+                <div class="headers">
+                   <h2>Category</h2>
+                   <h3>Project Title
+                  </h3>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6">
+              <div class="item-img">
+                <img src="images/2.jpg" class="w-100" alt="">
+                <div class="headers">
+                   <h2>Category</h2>
+                   <h3>Project Title
+                  </h3>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6">
+              <div class="item-img">
+                <img src="images/3.jpg" class="w-100" alt="">
+                <div class="headers">
+                   <h2>Category</h2>
+                   <h3>Project Title
+                  </h3>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="tab-pane fade" id="work-tab-pane" role="tabpanel" aria-labelledby="work-tab" tabindex="0"> <div class="row g-3">
+          <div class="col-lg-4 col-md-6">
+            <div class="item-img">
+              <img src="images/1.jpg" class="w-100" alt="">
+              <div class="headers">
+                 <h2>Category</h2>
+                 <h3>Project Title
+                </h3>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6">
+            <div class="item-img">
+              <img src="images/2.jpg" class="w-100" alt="">
+              <div class="headers">
+                 <h2>Category</h2>
+                 <h3>Project Title
+                </h3>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6">
+            <div class="item-img">
+              <img src="images/3.jpg" class="w-100" alt="">
+              <div class="headers">
+                 <h2>Category</h2>
+                 <h3>Project Title
+                </h3>
+              </div>
+            </div>
+          </div>
+        </div></div>
+        <div class="tab-pane fade" id="wordpress-tab-pane" role="tabpanel" aria-labelledby="wordpress-tab" tabindex="0"> <div class="row g-3">
+          <div class="col-lg-4 col-md-6">
+            <div class="item-img">
+              <img src="images/1.jpg" class="w-100" alt="">
+              <div class="headers">
+                 <h2>Category</h2>
+                 <h3>Project Title
+                </h3>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6">
+            <div class="item-img">
+              <img src="images/2.jpg" class="w-100" alt="">
+              <div class="headers">
+                 <h2>Category</h2>
+                 <h3>Project Title
+                </h3>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6">
+            <div class="item-img">
+              <img src="images/3.jpg" class="w-100" alt="">
+              <div class="headers">
+                 <h2>Category</h2>
+                 <h3>Project Title
+                </h3>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6">
+            <div class="item-img">
+              <img src="images/3.jpg" class="w-100" alt="">
+              <div class="headers">
+                 <h2>Category</h2>
+                 <h3>Project Title
+                </h3>
+              </div>
+            </div>
+          </div>
+        </div></div>
+
+      </div>
+    </div>
+ 
+  </section>
+  
+</main>
+
+
+<footer></footer>
+
+<script src="JS/all.min.js"></script>
+<script src="JS/bootstrap.bundle.min.js"></script>
+</body>
+</html>
